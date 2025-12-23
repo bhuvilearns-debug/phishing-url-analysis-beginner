@@ -59,14 +59,14 @@ Analysis:
 - The domain is banking-secure.info
 - chase appears only in the path
 - This is phishing
-  ### Case 5
+### Case 5
 URL: https://appleid.apple.com
 
 Analysis:
 - The domain is apple.com
 - appleid.apple.com is a valid Apple subdomain
 - This is legitimate
-- 
+  
 ## Defensive Checklist
 - Always check the domain name
 - Read URLs from right to left
