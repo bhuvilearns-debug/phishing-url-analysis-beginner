@@ -31,6 +31,7 @@ Attackers often place trusted brand names in the path to trick users.
 
 ### Case 1
 URL: http://login-security.net/socialmedia/verify
+
 Analysis:
 - The domain is login-security.net
 - socialmedia appears only in the path
@@ -38,6 +39,7 @@ Analysis:
 - This is a phishing attempt
 ### Case 2
 URL: https://paypal-login.net/account/verify
+
 Analysis:
 - The domain is paypal-login.net
 - The real PayPal domain is paypal.com
@@ -45,18 +47,21 @@ Analysis:
 - This is phishing
 ### Case 3
 URL: https://accounts.google.com
+
 Analysis:
 - The domain is google.com
 - accounts.google.com is a valid subdomain
 - This is legitimate
 ### Case 4
 URL: http://banking-secure.info/chase/login
+
 Analysis:
 - The domain is banking-secure.info
 - chase appears only in the path
 - This is phishing
   ### Case 5
 URL: https://appleid.apple.com
+
 Analysis:
 - The domain is apple.com
 - appleid.apple.com is a valid Apple subdomain
@@ -67,6 +72,7 @@ Analysis:
 - Read URLs from right to left
 - Do not trust HTTPS alone
 - Avoid clicking urgent login links
+  
 ## Conclusion
 This beginner project helped me understand how phishing attacks work at a technical level.
 Learning how URLs, domains, and servers work is a foundational cybersecurity skill.
